@@ -4,10 +4,6 @@ extends Node2D
 var starting_position = Vector2(200,200)
 
 
-func _ready():
-	pass
-
-
 func _physics_process(_delta):
 	if not has_node("Player"):
 		var player = Player.instantiate()
